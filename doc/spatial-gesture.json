@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "game_id": "ring-run",
+  "line_role": "route",
+  "identity_role": "moving_subject",
+  "gesture": {
+    "max_draw_seconds": 4.0,
+    "sample_spacing_px": 6,
+    "max_length_short_edge_ratio": 2.65,
+    "max_simplified_points": 48,
+    "start_rule": "anchor",
+    "end_rule": "anchor",
+    "start_snap_px": 54,
+    "end_snap_px": 64,
+    "recoverable_rejections": [
+      "too_short",
+      "wrong_start",
+      "wrong_end",
+      "forbidden_zone",
+      "pointer_cancel"
+    ]
+  },
+  "simulation": {
+    "collision_model": "subject_along_stroke",
+    "delta_cap_ms": 33,
+    "contact_hold_ms": 180,
+    "visible_risk_corridors": true
+  },
+  "scenes": [
+    {
+      "id": "the-cat",
+      "motion_model": "lateral_sweep",
+      "danger": "a visible cat paw sweeps across the route corridor",
+      "success": "the avatar ring box reaches the ceremony target",
+      "failure": "the paw contacts the box and the cat visibly claims the ring"
+    },
+    {
+      "id": "the-vacuum",
+      "motion_model": "looped_patrol",
+      "danger": "a robot vacuum patrols a visible rectangular cleaning loop",
+      "success": "the avatar ring box routes outside the cleaning loop",
+      "failure": "the vacuum contacts the box and visibly wears the ring"
+    },
+    {
+      "id": "the-champagne",
+      "motion_model": "diagonal_roll",
+      "danger": "a champagne bottle rolls through a visible diagonal lane",
+      "success": "the avatar ring box crosses outside the bottle lane",
+      "failure": "the bottle contacts the box and visibly receives the ring"
+    }
+  ],
+  "qa": {
+    "viewports": ["390x844", "320x568"],
+    "safe_stroke_each_scene": true,
+    "failure_stroke_each_scene": true,
+    "recoverable_rejections": true,
+    "pointer_cancel": true,
+    "lost_pointer_capture": true,
+    "sequential_full_run": true,
+    "replay_reset": true,
+    "platform_layout": true,
+    "external_guest": true
+  }
+}
