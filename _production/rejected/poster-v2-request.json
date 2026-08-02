@@ -1,0 +1,6 @@
+{
+  "endpoint": "https://chat.aiwaves.tech/aigram/api/gen-image",
+  "origin": "https://aigram.app",
+  "prompt": "Square premium mobile game poster, 1960s Western wedding editorial illustration with tactile cream invitation paper. In the\nupper quarter, one large perfectly legible dark-green condensed title: RING RUN. There is no period or punctuation after RUN.\nThe title is the only typography. Below it, a small luxurious forest-green velvet ring box races along one continuous\nhand-drawn burgundy route toward a glowing gold wedding arch. The front of the moving box contains a clear round photographic\nportrait of a freckled red-haired white Western woman, and a bright gold wedding ring sits on the box corner. One large\nwine-red cat paw sweeps toward the route from the right, creating a funny near-miss. Strong diagonal motion, bottle green,\nburgundy, antique gold and cream palette, sophisticated mid-century print texture, emotionally readable wedding emergency,\nfunny but elegant, instantly readable at 160 pixels. No bottle, no robot vacuum, no subtitle, no labels, no names, no Chinese,\nno extra letters, no fake glyphs, no interface, no watermark, no logo, no East Asian styling, not anime.",
+  "response_url": "https://cdn.aiwaves.tech/prod/telegram/avatar/0/1785693483077056.webp"
+}

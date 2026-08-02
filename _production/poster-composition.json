@@ -1,0 +1,8 @@
+{
+  "aigram_source": "_production/poster-edited.png",
+  "txt2img_request": "_production/rejected/poster-v1-request.json",
+  "img2img_request": "_production/poster-edit-request.json",
+  "title": "RING RUN",
+  "font": "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+  "output": "public/poster.png"
+}

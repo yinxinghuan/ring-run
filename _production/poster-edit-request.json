@@ -1,0 +1,7 @@
+{
+  "endpoint": "https://chat.aiwaves.tech/aigram/api/gen-image",
+  "origin": "https://aigram.app",
+  "prompt": "Edit this exact square poster while preserving the composition, people, objects, colors, route, proportions and illustration\nstyle. Make only two local corrections. First, the large top title must read RING RUN with no period, exclamation mark or\npunctuation after RUN. Second, remove every tiny letter and fake glyph from the champagne bottle label; replace the label\nwith a simple blank antique-gold rectangle containing no symbols. Do not add any subtitle or any other typography. The sole\ntext anywhere is RING RUN. Preserve the ring box portrait, cat, wedding arch and robot vacuum exactly.",
+  "ref_url": "https://cdn.aiwaves.tech/prod/telegram/avatar/0/1785693188212262.webp",
+  "response_url": "https://cdn.aiwaves.tech/prod/telegram/avatar/0/1785693613093510.webp"
+}
